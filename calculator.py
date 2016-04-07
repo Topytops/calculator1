@@ -46,8 +46,8 @@ while True:
 		print cube(a)
 
 	if tokens[0] == "pow":
-		a = int(tokens[1])
-		b = int(tokens[2])			
+		a = (tokens[1])
+		b = (tokens[2])			
 		print power(a,b)
 
 	if tokens[0] == "%":
